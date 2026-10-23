@@ -6,6 +6,18 @@
 
 ---
 
+## ⚡ 最快上手（复制即用）
+
+**① 一条完整安装命令**（以 Codex 为例，其它平台见下文「作为 Agent Skill 调用」）：
+
+```bash
+git clone https://github.com/<你的用户名>/paper-to-wechat-draft.git ~/.codex/skills/paper-to-wechat-draft && pip install -r ~/.codex/skills/paper-to-wechat-draft/requirements.txt
+```
+
+**② 一条给 Agent 的示例指令**：
+
+> 使用 paper-to-wechat-draft 技能，把这篇论文 PDF 转成公众号草稿：只保留插图、不要表格，按“摘要 → 引言 → 图表 → 结论 → 参考文献 → 版权声明”排版，图表截图不要截进论文正文文字。
+
 ## ✨ 功能亮点
 
 - **首页抬头截图**：自动裁剪论文第 1 页「Full Length Article / 标题 / 作者 / 单位」作为文章头图 `header.png`。
