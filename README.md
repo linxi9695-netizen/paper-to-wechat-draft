@@ -11,7 +11,7 @@
 **① 一条完整安装命令**（以 Codex 为例，其它平台见下文「作为 Agent Skill 调用」）：
 
 ```bash
-git clone https://github.com/<你的用户名>/paper-to-wechat-draft.git ~/.codex/skills/paper-to-wechat-draft && pip install -r ~/.codex/skills/paper-to-wechat-draft/requirements.txt
+git clone https://github.com/linxi9695-netizen/paper-to-wechat-draft.git ~/.codex/skills/paper-to-wechat-draft && pip install -r ~/.codex/skills/paper-to-wechat-draft/requirements.txt
 ```
 
 **② 一条给 Agent 的示例指令**：
@@ -32,7 +32,7 @@ git clone https://github.com/<你的用户名>/paper-to-wechat-draft.git ~/.code
 
 ```bash
 # 1. 克隆仓库
-git clone <你的仓库地址> paper-to-wechat-draft
+git clone https://github.com/linxi9695-netizen/paper-to-wechat-draft.git paper-to-wechat-draft
 cd paper-to-wechat-draft
 
 # 2. 安装依赖（Python 3.9+）
