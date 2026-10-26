@@ -1,0 +1,19 @@
+# 密钥与本地配置
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 输入 PDF 与生成产物
+*.pdf
+paper_output/
+crops/
+wechat_article.html
+*.wechat.html
+manifest.json
+
+# 系统
+.DS_Store
+Thumbs.db
