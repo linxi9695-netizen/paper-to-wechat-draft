@@ -42,6 +42,45 @@ git clone https://github.com/linxi9695-netizen/paper-to-wechat-draft.git ~/.code
 - **微信草稿箱推送（可选）**：`uploadimg` 换 `mmbiz.qpic.cn` 链接 → `draft/add` 推草稿箱并返回 `media_id`。
 - **精读模式**：`--items` 只选核心图表 + `--renumber` 重新编号，产出简洁的深度精读版。
 
+## 🛠 环境准备（没有 Python / Git 看这里）
+
+本技能需要 **Python 3.9+** 与 **Git**，先按下面的方法装好（二选一都装），再进行“快速安装”。
+
+### ① 安装 Python
+
+| 系统 | 方法 |
+| --- | --- |
+| Windows | 到 [python.org](https://www.python.org/downloads/) 下载安装包，**安装时勾选「Add Python to PATH」**；或命令行 `winget install Python.Python.3.12` |
+| macOS | `brew install python`（需先装 Homebrew），或到 python.org 下载 pkg 安装 |
+| Linux (Debian/Ubuntu) | `sudo apt update && sudo apt install -y python3 python3-pip` |
+| Linux (CentOS/RHEL) | `sudo yum install -y python3 python3-pip` |
+
+装完验证（出现版本号即成功）：
+
+```bash
+python --version   # 例：Python 3.12.6
+pip --version
+```
+
+> Windows 若提示「python 不是内部或外部命令」，说明没勾选「Add to PATH」，重装勾上，或用 `py` 代替 `python`。
+
+### ② 安装 Git
+
+| 系统 | 方法 |
+| --- | --- |
+| Windows | 到 [git-scm.com](https://git-scm.com/downloads) 下载安装，一路默认即可；或 `winget install --id Git.Git` |
+| macOS | `brew install git`，或安装命令行工具 `xcode-select --install` |
+| Linux (Debian/Ubuntu) | `sudo apt install -y git` |
+| Linux (CentOS/RHEL) | `sudo yum install -y git` |
+
+验证：
+
+```bash
+git --version
+```
+
+> 如果只是自己用、不需要从 GitHub 下载，也可以**不装 Git**：直接在 GitHub 页面点「Code → Download ZIP」解压后使用，跳过 `git clone` 那一步即可。
+
 ## 🚀 快速安装（3 步）
 
 ```bash
