@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文转公众号草稿"
+  short_description: "把学术论文 PDF 转成公众号/秀米可发布的中文成品（高清图表截图 + 内联样式 HTML）"
+  default_prompt: "使用 -to-wechat-draft，把论文 PDF 转成公众号/秀米排版草稿：精读模式只留核心图表并重新编号，生成中文速览与导读。"
